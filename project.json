@@ -1,6 +1,6 @@
 {
-  "name": "UIPath-80b01d8547a8772a63c8cad53e4072046af4d1e9",
-  "description": "Blank Process",
+  "name": "DataScraping for Demo",
+  "description": "Datascraping from flipkart",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -46,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "2712f213-9995-4824-a1e3-29c4a719689f",
+      "uniqueId": "358af124-ada4-49c2-935c-52a99345c2ce",
       "input": [],
       "output": []
     }
