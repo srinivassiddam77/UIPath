@@ -1,12 +1,17 @@
 {
-  "name": "DataScraping for Demo",
-  "description": "Datascraping from flipkart",
+  "name": "Extrating the Data from Gmail",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Database.Activities": "[1.6.1]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.Mailchimp.IntegrationService.Activities": "[3.0.1]",
+    "UiPath.Marketo.Activities": "[1.0.4]",
     "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.5]"
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]",
+    "UiPath.Workato.Activities": "[1.2.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -46,7 +51,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "358af124-ada4-49c2-935c-52a99345c2ce",
+      "uniqueId": "3faef134-54ed-4a62-bbdb-d0fe49834d4d",
       "input": [],
       "output": []
     }
