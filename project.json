@@ -1,6 +1,6 @@
 {
-  "name": "DataScraping for Demo",
-  "description": "Datascraping from flipkart",
+  "name": "Data_Scraping",
+  "description": "Scraping the Mobile Phones information from Flipkart site\r\n",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
@@ -46,7 +46,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "358af124-ada4-49c2-935c-52a99345c2ce",
+      "uniqueId": "82256f32-05f5-45f1-9c98-7c63b587e585",
       "input": [],
       "output": []
     }
