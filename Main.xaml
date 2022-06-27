@@ -166,7 +166,7 @@
                 </ui:CursorPosition>
               </ui:Click.CursorPosition>
               <ui:Click.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="feaf61fd-3083-4152-970c-4bebbf5b7bd6" InformativeScreenshot="ae3ce791129c980b757ac91800361492" Selector="&lt;webctrl tag='svg' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="feaf61fd-3083-4152-970c-4bebbf5b7bd6" InformativeScreenshot="573c2db89fb918edcc2cb6fc77e3e083" Selector="&lt;webctrl idx='2' tag='path' /&gt;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
@@ -210,19 +210,19 @@
                   </ActivityAction>
                 </ui:BrowserScope.Body>
               </ui:BrowserScope>
-              <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="433.6,518.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" InstanceCachePeriod="3000" WorkbookPath="C:\Users\jnet\Desktop\Mobile_Phone List from Flipkart.xlsx">
+              <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="433.6,518.4" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_3" InstanceCachePeriod="3000" WorkbookPath="C:\Users\jnet\Desktop\Mobile_Phone List from Flipkart.xlsx">
                 <ui:ExcelApplicationScope.Body>
                   <ActivityAction x:TypeArguments="ui:WorkbookApplication">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,408.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="375.2,408.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:ExcelWriteRange AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_1" SheetName="Sheet1" StartingCell="A1" />
+                      <ui:ExcelWriteRange AddHeaders="False" DataTable="[ExtractDataTable]" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_2" SheetName="Sheet1" StartingCell="A1" />
                       <ui:ExcelSetRangeColor Color="[system.Drawing.Color.Pink]" DisplayName="Set Range Color" sap:VirtualizedContainerService.HintSize="333.6,188" sap2010:WorkflowViewState.IdRef="ExcelSetRangeColor_1" Range="A1:E1" SheetName="Sheet1" />
                     </Sequence>
                   </ActivityAction>
