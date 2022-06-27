@@ -1,18 +1,24 @@
 {
-  "name": "Data_Scraping",
-  "description": "Scraping the Mobile Phones information from Flipkart site\r\n",
+  "name": "Extrating the Data from Gmail",
+  "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.Database.Activities": "[1.6.1]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.Mailchimp.IntegrationService.Activities": "[3.0.1]",
+    "UiPath.Marketo.Activities": "[1.0.4]",
     "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.5]"
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]",
+    "UiPath.Workato.Activities": "[1.2.0-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -46,7 +52,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "82256f32-05f5-45f1-9c98-7c63b587e585",
+      "uniqueId": "3faef134-54ed-4a62-bbdb-d0fe49834d4d",
       "input": [],
       "output": []
     }
