@@ -127,12 +127,10 @@
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
     </ui:ExcelApplicationScope>
-    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[Master(&quot;Body&quot;).ToString]" DisplayName="Send SMTP Mail Message" Email="srsiddam@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="548,146.4" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Password="qfyljjvnxgniqsof" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[Master(&quot;Subject&quot;).ToString]" To="[Master(&quot;To&quot;).ToString]">
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" ReplyTo="{x:Null}" SecurePassword="{x:Null}" TimeoutMS="{x:Null}" Body="[Master(&quot;Body&quot;).ToString]" DisplayName="Send SMTP Mail Message" Email="srsiddam@gmail.com" EnableSSL="True" sap:VirtualizedContainerService.HintSize="548,146.4" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Password="odesmxjkxtgfyftw" Port="587" SecureConnection="Auto" Server="smtp.gmail.com" Subject="[Master(&quot;Subject&quot;).ToString]" To="[Master(&quot;To&quot;).ToString]">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-          <InArgument x:TypeArguments="x:String">
-            <Literal x:TypeArguments="x:String">C:\Users\jnet\Desktop\PDF's for automation\abcd.pdf</Literal>
-          </InArgument>
+          <InArgument x:TypeArguments="x:String">C:\Users\jnet\Desktop\PDF's for automation\abcd.pdf</InArgument>
         </scg:List>
       </ui:SendMail.Files>
     </ui:SendMail>
