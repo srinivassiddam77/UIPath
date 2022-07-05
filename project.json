@@ -1,17 +1,18 @@
 {
-  "name": "Hello World",
+  "name": "Read_Word",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.1]",
+    "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.4]"
+    "UiPath.UIAutomation.Activities": "[22.4.5]",
+    "UiPath.Word.Activities": "[1.10.1]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.1.0",
+  "studioVersion": "22.4.3.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -46,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "fbb8848d-aa40-415c-b370-d9dc1f2d08db",
+      "uniqueId": "3de0fffd-bf09-4bad-8150-070f3c78a7bb",
       "input": [],
       "output": []
     }
