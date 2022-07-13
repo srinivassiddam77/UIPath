@@ -1,18 +1,18 @@
 {
-  "name": "Employeedetails",
+  "name": "Pdf Automation by using OCR",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "Microsoft.Activities.Extensions": "[2.0.6.9]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
-    "UiPath.System.Activities": "[22.4.4]",
-    "UiPath.UIAutomation.Activities": "[22.4.7]"
+    "UiPath.PDF.Activities": "[3.7.2-preview]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.4.0",
+  "studioVersion": "22.4.3.0",
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
@@ -47,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "e3dda814-4726-463f-8d30-de2effea1faa",
+      "uniqueId": "8d081b22-3641-428a-8b06-753b30970a75",
       "input": [],
       "output": []
     }
