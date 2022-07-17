@@ -1,12 +1,11 @@
 {
-  "name": "Pdf Automation by using OCR",
-  "description": "Blank Process",
+  "name": "RoboticEnterpriseFramework",
+  "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
-    "UiPath.Mail.Activities": "[1.15.2]",
-    "UiPath.PDF.Activities": "[3.7.2-preview]",
     "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
     "UiPath.UIAutomation.Activities": "[22.4.5]"
   },
   "webServices": [],
@@ -40,14 +39,58 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0db9c605-a75d-4126-8a11-88bdb539a378",
+        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7821868e-dc4d-48d2-adb0-d6fa74844fd3",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "905cb4fb-6518-470c-a6bf-ac78ab50f6b5",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "2c729bad-c9b2-4cb1-a2fa-3595055264aa",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "56c7ff98-4c70-4b97-9984-d4050f207ee6",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "49ad00b9-22ff-4648-ac6b-db14839241d8",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "94155084-5823-4d5d-a8cd-1bdc01509cae",
+        "testCaseType": "TestCase",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      }
+    ],
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "8d081b22-3641-428a-8b06-753b30970a75",
+      "uniqueId": "9a38ec67-a3bc-4587-979b-e491a22d59f2",
       "input": [],
       "output": []
     }
