@@ -1,9 +1,8 @@
 {
-  "name": "DynamicEmails Sending Process",
+  "name": "Dynamically_send values",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "Microsoft.Activities": "[1.0.1]",
     "Microsoft.Activities.Extensions": "[2.0.6.9]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
@@ -14,7 +13,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.5",
+  "projectVersion": "1.0.7-alpha",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -48,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "c3823804-a886-4cfc-990a-c508dc3750ca",
+      "uniqueId": "e9b97d26-09e9-4df5-a8c3-729d517d11ec",
       "input": [],
       "output": []
     }
