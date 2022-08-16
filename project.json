@@ -1,19 +1,19 @@
 {
-  "name": "RegEx Example",
-  "description": "Blank Process",
+  "name": "RegEx_Example 2",
+  "description": "Regular Expression",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.PDF.Activities": "[3.8.0-preview]",
-    "UiPath.System.Activities": "[22.4.1]",
-    "UiPath.UIAutomation.Activities": "[22.4.5]"
+    "UiPath.System.Activities": "[22.4.4]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
-  "studioVersion": "22.4.3.0",
-  "projectVersion": "1.0.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -47,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "7db8e4c9-370d-4acc-b878-cfc250960940",
+      "uniqueId": "0f8925ae-73a4-404b-8567-8fb9da9be6f4",
       "input": [],
       "output": []
     }
