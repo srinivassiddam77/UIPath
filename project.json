@@ -1,8 +1,9 @@
 {
-  "name": "Regular Expression",
+  "name": "Employeedetails",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
     "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Mail.Activities": "[1.15.2]",
     "UiPath.System.Activities": "[22.4.4]",
@@ -46,7 +47,7 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "90a264ee-1b58-45c2-bd3e-86cb741100f5",
+      "uniqueId": "e3dda814-4726-463f-8d30-de2effea1faa",
       "input": [],
       "output": []
     }
